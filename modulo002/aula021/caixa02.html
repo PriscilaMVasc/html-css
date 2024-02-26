@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags - Tags Semânticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: chocolate;
+            margin: 0%;
+        }
+        header {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: coral;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.647);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(95, 86, 69);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.508);
+        }
+
+        article {
+            background-color: rgb(234, 198, 155);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(244, 155, 47, 0.707)
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0%;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o País</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repudiandae velit eaque harum fugit delectus sunt, expedita distinctio hic facere atque consectetur reiciendis rerum eos et, unde voluptatibus sit quam.</p>
+                <aside>
+                    <p>Escrito por Priscila</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
